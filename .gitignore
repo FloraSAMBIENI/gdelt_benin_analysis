@@ -1,0 +1,8 @@
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Fichiers de configuration perso
+.env
+

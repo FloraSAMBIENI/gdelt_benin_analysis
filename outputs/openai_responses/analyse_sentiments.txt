@@ -1,0 +1,68 @@
+Pour analyser ces données, nous allons identifier les périodes de sentiments les plus positifs et les plus négatifs, tout en examinant les tendances générales et en proposant des hypothèses pour expliquer ces variations. Voici les principales observations :
+
+---
+
+### **1. Périodes de sentiments négatifs**
+Les valeurs les plus basses (les sentiments les plus négatifs) sont les suivantes :
+
+- **2016-06** : AvgTone = -2.160509  
+- **2017-04** : AvgTone = -2.048637  
+- **2018-01** : AvgTone = -1.979209  
+- **2021-04** : AvgTone = -1.849424  
+- **2016-04** : AvgTone = -1.949473  
+
+Ces périodes marquent des moments où le ton des informations sur le Bénin était fortement négatif. Une tendance concernant les sentiments négatifs est le pic en 2016 (notamment en avril et juin), suivi d'autres creux notables en début d'année 2018 et en avril 2021.
+
+---
+
+#### **Hypothèses sur les raisons des sentiments négatifs**
+1. **2016 (Pic négatif en avril et juin) :**
+   - Possibles troubles politiques liés au processus électoral au Bénin, qui aurait généré des tensions et une couverture médiatique négative.
+   - Événements économiques ou sociaux négatifs tels que des manifestations, accusations de corruption, ou des crises humanitaires.
+
+2. **Début 2018 :**
+   - L'impact de réformes structurelles ou de politiques impopulaires pourrait avoir influencé les perceptions. Les tensions politiques liées à la gouvernance ou la critique d'élites locales peuvent expliquer ce ton négatif.
+
+3. **Avril 2021 :**
+   - Le pic est lié à une période électorale où des tensions politiques et des accusations de répression avaient été rapportées dans certains médias, avec potentiellement des incidents violents faisant l'actualité.
+
+---
+
+### **2. Périodes de sentiments positifs**
+Les valeurs les plus élevées (sentiments les plus positifs) sont les suivantes :
+
+- **2022-02** : AvgTone = 2.559092  
+- **2022-09** : AvgTone = 1.970102  
+- **2023-04** : AvgTone = 1.979898  
+- **2022-08** : AvgTone = 1.593954  
+- **2022-11** : AvgTone = 1.639131  
+
+On remarque que 2022 marque une période exceptionnellement positive, avec un pic remarquable en février 2022 suivi de pics constants tout au long de l'année, notamment en août et novembre. Une autre période notable est avril 2023.
+
+---
+
+#### **Hypothèses sur les raisons des sentiments positifs**
+1. **2022 (Pic positif en février, septembre, novembre) :**
+   - **Février 2022** : Ce pic correspond peut-être à des événements diplomatiques ou économiques favorables au Bénin, tels qu'une politique de coopération internationale fructueuse ou des investissements. Une amélioration des relations bilatérales avec d'autres pays africains ou européens pourrait aussi expliquer ce ton positif.
+   - **Septembre-Novembre 2022** : Ces mois pourraient marquer la mise en œuvre de projets de développement économique ou d’infrastructures, ou des célébrations nationales perçues favorablement par les médias.
+
+2. **Avril 2023 :**
+   - Il est possible que des réussites dans le domaine sportif (participation à des compétitions internationales), culturel (reconnaissances au niveau mondial), ou des annonces politiques favorables aient influencé positivement le ton des médias durant cette période.
+
+---
+
+### **3. Tendances générales**
+- **2015 - 2018** : Les tonalités sont généralement négatives, avec de rares pics dans les zones positives. Cela pourrait indiquer une période de turbulences politiques, économiques ou institutionnelles dans le pays.
+- **2019 - 2021** : Une dynamique plus stable commence à apparaître, bien qu’il y ait encore des moments négatifs. Cela peut refléter une transition ou une stabilisation politique, particulièrement pendant les élections et leurs conséquences.
+- **2022 - 2025** : Cette période est nettement plus positive dans son ensemble, avec plusieurs pics élevés. Cela pourrait refléter une amélioration de la gouvernance, des actions orientées vers le développement ou des succès diplomatiques.
+
+---
+
+### **4. Points clés sur les variations**
+- Les périodes électorales ou de transition politique ont tendance à générer des tonalités négatives, notamment en 2016 et 2021.
+- Les périodes positives semblent associées à des événements précis (par exemple, des réussites économiques, infrastructurelles, diplomatiques ou culturelles).
+
+---
+
+### Conclusion
+Les causes des variations dans le ton médiatique pourraient être attribuées à des événements géopolitiques, des élections, des crises sociales ou des succès diplomatiques et économiques. Une analyse approfondie des événements spécifiques durant ces années serait nécessaire pour corroborer ces hypothèses.

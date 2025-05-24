@@ -1,0 +1,72 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import os
+
+# Définir le dossier de sortie
+output_dir = "outputs/visualisations/"
+os.makedirs(output_dir, exist_ok=True)
+
+# 1. Tendances temporelles (nombre d’événements par mois)
+df_tendances = pd.read_csv("outputs/tendances_benin.csv")
+plt.figure(figsize=(12, 6))
+sns.lineplot(data=df_tendances, x='YearMonth', y='Nombre_événements')
+plt.title("📈 Évolution du nombre d'événements au Bénin")
+plt.xlabel("Mois et année")
+plt.ylabel("Nombre d'événements")
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.savefig(os.path.join(output_dir, "tendance_evenements.png"))
+plt.close()
+
+# 2. Événements majeurs (par nombre de mentions)
+df_events = pd.read_csv("outputs/evenements_majeurs.csv")
+plt.figure(figsize=(12, 6))
+sns.barplot(data=df_events, x='SQLDATE', y='NumMentions', palette='viridis')
+plt.title("🔥 Top événements majeurs par nombre de mentions")
+plt.xlabel("Date")
+plt.ylabel("Nombre de mentions")
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.savefig(os.path.join(output_dir, "evenements_majeurs.png"))
+plt.close()
+
+# 3. Mentions (nombre d’articles par mois)
+df_mentions = pd.read_csv("outputs/mentions_benin.csv")
+plt.figure(figsize=(12, 6))
+sns.lineplot(data=df_mentions, x='YearMonth', y='Nombre_mentions', marker='o')
+plt.title("📰 Nombre d'articles/mentions liés au Bénin")
+plt.xlabel("Date")
+plt.ylabel("Nombre de mentions")
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.savefig(os.path.join(output_dir, "mentions_benin.png"))
+plt.close()
+
+# 4. Sentiments exprimés (ton moyen des documents)
+df_sentiments = pd.read_csv("outputs/sentiments_benin.csv")
+plt.figure(figsize=(12, 6))
+sns.lineplot(data=df_sentiments, x='YearMonth', y='AvgTone', marker='o', color='crimson')
+plt.title("❤️‍🩹 Ton moyen des documents (sentiments exprimés)")
+plt.xlabel("Date")
+plt.ylabel("Ton (MentionDocTone)")
+plt.axhline(0, linestyle='--', color='grey', alpha=0.6)
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.savefig(os.path.join(output_dir, "sentiments_benin.png"))
+plt.close()
+
+# 5. Localisation (lieux les plus mentionnés)
+df_localisation = pd.read_csv("outputs/localisation_benin.csv")
+top_localisations = df_localisation.head(10)
+plt.figure(figsize=(12, 6))
+sns.barplot(data=top_localisations, x='Lieu', y='Occurrences', palette='cubehelix')
+plt.title("🌍 Lieux les plus fréquemment mentionnés dans les articles liés au Bénin")
+plt.xlabel("Lieu")
+plt.ylabel("Nombre d'occurrences")
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.savefig(os.path.join(output_dir, "localisation_benin.png"))
+plt.close()
+
+print(f"✅ Toutes les visualisations ont été générées dans le dossier '{output_dir}'")
