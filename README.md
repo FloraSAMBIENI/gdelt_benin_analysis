@@ -5,7 +5,7 @@ Ce projet a été réalisé avec pour objectif d’extraire les données relativ
 ---
 
 ## 🗂 Structure du projet
-
+```
 ├── cleaned_data/
 │ ├── clean_events.csv
 │ ├── clean_gkg.csv
@@ -60,7 +60,7 @@ Ce projet a été réalisé avec pour objectif d’extraire les données relativ
 ├── .env.example
 ├── README.md
 ├── requirements.txt
-
+```
 
 ---
 
