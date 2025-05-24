@@ -184,6 +184,6 @@ Les résultats finaux sont organisés comme suit :
 
 Les fichiers CSV des dossiers cleaned_data et data sont dans le dossier fchiers_csv_gdelt_benin_analysis accessible ici :
 
-🔗 [Accéder aux fichiers CSV sur Google Drive](LIEN_ICI)
+🔗 [Accéder aux fichiers CSV sur Google Drive](https://drive.google.com/drive/folders/1jjgziS8Z8W8gJhR204aHMpFFDNC6PjvD?usp=sharing)
 
 
